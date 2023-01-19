@@ -1,0 +1,23 @@
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turtle.js/0.2.0/turtle.js"></script>
+  <script src="chatmain.py"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-reader@2.0.0/dist/qrcode-reader.min.js"></script>
+    </head>
+          
+    <body>
+        <div id="animation"></div>
+        <body onload="makeAnimation()()">
+        <script>
+         var qr = new QCodeReader();
+        qr.callback = function(makeAnimation){
+        console.log("imgik1.jpg");
+        makeAnimation()();
+    }
+
+    qr.decodeFromCamera();
+</script>
+
+
+      </body>
+      
+</html>

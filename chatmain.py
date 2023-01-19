@@ -50,7 +50,7 @@ def animation():
     t.write("<3 ADMIS(e) Bac 2023k <3", font=("Arial", 24, "bold"))
     turtle.mainloop()
     
-data = "https://www.example.com"
+data = "https://github.com/eTsMiLToS/bac-info.git/index.html"
 logo_path = "imgik1.jpg"
 create_qr_with_logo(data, logo_path)
 
